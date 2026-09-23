@@ -16,6 +16,8 @@ These turn transcripts of real conversations into structured shaping documents. 
 
 **`/kickoff-doc`** — Turn a shaped project kickoff transcript into a reference document for the builder, capturing what was shaped and agreed.
 
+**`/pitch`** — Write and review Shape Up pitches from framing documents, shaping artefacts, breadboards, transcripts, or notes. Presents shaped work as a self-contained potential bet for a betting table.
+
 ### Solo skills — more experimental
 
 These are for working with Claude directly on shaping and design. They're more experimental and less battle-tested than the document skills.
@@ -31,6 +33,7 @@ These are for working with Claude directly on shaping and design. They're more e
 git clone https://github.com/rjs/shaping-skills.git ~/.local/share/shaping-skills
 ln -s ~/.local/share/shaping-skills/framing-doc ~/.claude/skills/framing-doc
 ln -s ~/.local/share/shaping-skills/kickoff-doc ~/.claude/skills/kickoff-doc
+ln -s ~/.local/share/shaping-skills/pitch ~/.claude/skills/pitch
 ln -s ~/.local/share/shaping-skills/breadboarding ~/.claude/skills/breadboarding
 ln -s ~/.local/share/shaping-skills/shaping ~/.claude/skills/shaping
 ```
